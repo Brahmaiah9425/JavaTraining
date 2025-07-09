@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #007BFF;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+nav {
+  background: #333;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  margin: 0 1rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+}
+nav a:hover {
+  background: #555;
+}
+
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+.card {
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.form-section {
+  padding: 2rem;
+  background: #fff;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+form label {
+  margin: 0.5rem 0 0.2rem;
+}
+form input,
+form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+form button {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+form button:hover {
+  background: #0056b3;
+}
+
+.table-section {
+  padding: 2rem;
+  background: #f9f9f9;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+th, td {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+th {
+  background: #007BFF;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: white;
+}
